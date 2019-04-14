@@ -6,6 +6,17 @@
 /** # MONGOOSE SETUP #
 /*  ================== */
 
+// mongodb+srv://AniaMie:<password>@mongodb-fun-bzcjv.mongodb.net/test?retryWrites=true
+
+// const MongoClient = require('mongodb').MongoClient;
+// const uri = "mongodb+srv://AniaMie:<password>@mongodb-fun-bzcjv.mongodb.net/test?retryWrites=true";
+// const client = new MongoClient(uri, { useNewUrlParser: true });
+// client.connect(err => {
+//   const collection = client.db("test").collection("devices");
+//   // perform actions on the collection object
+//   client.close();
+// });
+
 /** 1) Install & Set up mongoose */
 
 // Add `mongodb` and `mongoose` to the project's `package.json`. Then require 
